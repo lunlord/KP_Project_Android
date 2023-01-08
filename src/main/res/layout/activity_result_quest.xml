@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultQuest">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:background="@color/teal_200"
+        android:text="Тест 1"/>
+    <TextView
+        android:id="@+id/AnswerforQuest1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14sp"
+        android:text="Не высыпаюсь"/>
+    <TextView
+        android:id="@+id/AnswerforQuest2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14sp"
+        android:text="Не слежу за этим"/>
+    <TextView
+        android:id="@+id/AnswerforQuest3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14sp"
+        android:text="Нет"/>
+    <TextView
+        android:id="@+id/ResultDiagnoz"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14sp"
+        android:background="#B4FF28"
+        android:text="У вас имеются проблемы. Стоит обратиться к врачу!"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:background="@color/teal_200"
+            android:text="Тест 2"/>
+        <TextView
+            android:id="@+id/AnswerforQuest1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14sp"
+            android:text="Сплю хорошо"/>
+        <TextView
+            android:id="@+id/AnswerforQuest2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14sp"
+            android:text="2.5 литра"/>
+        <TextView
+            android:id="@+id/AnswerforQuest3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14sp"
+            android:text="Нет"/>
+        <TextView
+            android:id="@+id/ResultDiagnoz2"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14sp"
+            android:background="#B4FF28"
+            android:text="Вы абсолютно здоровы"/>
+    </LinearLayout>
+
+</LinearLayout>
